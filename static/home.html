@@ -3,49 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Cloud DevOps Engineer</title>
+    <title>Ruchitha's Portfolio</title>
     <style>
         body {
-            background-color: black; /* Black background */
-            color: white; /* White text */
+            background-color: #1a1a1a; /* Dark background for a modern look */
+            color: #f0f0f0; /* Light text color for readability */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            text-align: center; /* Centered text alignment */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
-        header {
+
+        .container {
+            background-color: #2c2c2c; /* Slightly lighter background for the content area */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            max-width: 800px;
+            text-align: center; /* Centered text alignment for the header */
+        }
+
+        .header {
+            border: 3px solid #3498db; /* Border for the header */
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #333333; /* Darker background for contrast */
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #3498db; /* Blue color for the heading text */
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #e0e0e0; /* Light grey color for paragraph text */
             margin-bottom: 20px;
+            text-align: justify; /* Justify text for even alignment on both sides */
+            text-indent: 2em; /* Indent the first line of the paragraph */
         }
-        nav {
-            margin-bottom: 20px;
-        }
-        a {
+
+        nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #ccc; /* Lighter color for links */
+            color: #3498db; /* Blue color for the links */
+            font-weight: bold;
         }
-        a:hover {
-            color: #fff; /* White color on hover */
-        }
-        h1 {
-            color: white; /* White color for header text */
-        }
-        p {
-            font-size: 1.2em;
+
+        nav a:hover {
+            color: #f0f0f0; /* Light color on hover */
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Ruchitha's Portfolio</h1>
+        </div>
         <p>Hello! I'm Ruchitha, a passionate Cloud DevOps Engineer specializing in AWS solutions architecture. With extensive experience in the tech industry, I have honed a strong understanding of cloud computing and DevOps practices that drive successful project outcomes. I am proficient in a wide range of AWS services, including EC2, RDS, S3, Lambda, CloudFormation, CloudFront, Elastic Beanstalk, DynamoDB, and IAM, which enable me to design scalable, highly available, and cost-effective cloud architectures. My expertise extends to containerization and orchestration, utilizing tools like Docker and Kubernetes to ensure seamless application deployment and management. Additionally, I have experience with automation and configuration management using Terraform and Ansible, which enhances the efficiency of infrastructure provisioning and maintenance.</p>
         <p>I have a proven track record of implementing CI/CD pipelines with tools such as Jenkins, GitLab CI/CD, and Azure Pipelines, which streamline deployment processes and improve code quality. My notable projects include migrating enterprise applications to AWS, optimizing infrastructure for performance and resilience, and establishing robust security practices within cloud environments. I am dedicated to continuous learning and innovation, constantly seeking opportunities to deepen my knowledge of emerging cloud technologies and DevOps methodologies. I am eager to leverage my skills to drive business success through effective cloud solutions and streamlined DevOps practices. Explore my projects on GitHub, and feel free to connect!</p>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
-        <a href="projects.html">Projects</a>
-    </nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="projects.html">Projects</a>
+        </nav>
+    </div>
 </body>
 </html>
+
 
