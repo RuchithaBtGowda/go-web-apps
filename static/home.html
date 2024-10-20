@@ -2,79 +2,140 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruchitha's Portfolio</title>
+    <title>Welcome to Ruchitha's Portfolio</title>
     <style>
         body {
-            background-color: #1a1a1a; /* Dark background for a modern look */
-            color: #f0f0f0; /* Light text color for readability */
             font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light background for contrast */
+        }
+
+        header {
+            background-color: #4CAF50; /* Green top color */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
             padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            border: 2px solid #ccc; /* Increased border size */
+            margin: 20px;
+            background-color: #fff; /* White background for content */
+            border-radius: 5px; /* Slightly rounded corners */
         }
 
-        .container {
-            background-color: #2c2c2c; /* Slightly lighter background for the content area */
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-            max-width: 800px;
-            text-align: center; /* Centered text alignment for the header */
-        }
-
-        .header {
-            border: 3px solid #3498db; /* Border for the header */
-            border-radius: 5px;
-            padding: 15px;
-            background-color: #333333; /* Darker background for contrast */
-            margin-bottom: 30px;
-        }
-
-        .header h1 {
-            color: #3498db; /* Blue color for the heading text */
-            margin: 0;
-            font-size: 2.2em;
+        h1 {
+            text-align: center; /* Centered title */
         }
 
         p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            color: #e0e0e0; /* Light grey color for paragraph text */
-            margin-bottom: 20px;
-            text-align: justify; /* Justify text for even alignment on both sides */
-            text-indent: 2em; /* Indent the first line of the paragraph */
+            text-align: justify; /* Justified paragraphs */
+            line-height: 1.6; /* Improved line height for readability */
         }
 
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #3498db; /* Blue color for the links */
-            font-weight: bold;
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
 
-        nav a:hover {
-            color: #f0f0f0; /* Light color on hover */
+        .highlight {
+            font-weight: bold; /* Highlighted keywords */
+            color: #4CAF50; /* Same color as header for consistency */
         }
-    </style>
+    </style>    
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Welcome to Ruchitha's Portfolio</h1>
-        </div>
-        <p>Hello! I'm Ruchitha, a passionate Cloud DevOps Engineer specializing in AWS solutions architecture. With extensive experience in the tech industry, I have honed a strong understanding of cloud computing and DevOps practices that drive successful project outcomes. I am proficient in a wide range of AWS services, including EC2, RDS, S3, Lambda, CloudFormation, CloudFront, Elastic Beanstalk, DynamoDB, and IAM, which enable me to design scalable, highly available, and cost-effective cloud architectures. My expertise extends to containerization and orchestration, utilizing tools like Docker and Kubernetes to ensure seamless application deployment and management. Additionally, I have experience with automation and configuration management using Terraform and Ansible, which enhances the efficiency of infrastructure provisioning and maintenance.</p>
-        <p>I have a proven track record of implementing CI/CD pipelines with tools such as Jenkins, GitLab CI/CD, and Azure Pipelines, which streamline deployment processes and improve code quality. My notable projects include migrating enterprise applications to AWS, optimizing infrastructure for performance and resilience, and establishing robust security practices within cloud environments. I am dedicated to continuous learning and innovation, constantly seeking opportunities to deepen my knowledge of emerging cloud technologies and DevOps methodologies. I am eager to leverage my skills to drive business success through effective cloud solutions and streamlined DevOps practices. Explore my projects on GitHub, and feel free to connect!</p>
+    <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact</a>
-            <a href="projects.html">Projects</a>
+            <ul>
+                <li><a href="home.html">Home</a></li> <!-- Link to home 
+-->
+                <li><a href="contact.html">Contact</a></li> <!-- Link to 
+contact page -->
+                <li><a href="projects.html">Projects</a></li> <!-- Link to 
+projects page -->
+            </ul>
         </nav>
-    </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>Welcome to Ruchitha's Portfolio</h1>
+            <p>
+                Hello! I'm <span class="highlight">Ruchitha</span>, a 
+passionate <span class="highlight">Cloud DevOps Engineer</span> 
+specializing in <span class="highlight">AWS</span> solutions architecture. 
+With extensive experience in the tech industry, I have honed a strong 
+understanding of cloud computing and <span class="highlight">DevOps 
+practices</span> that drive successful project outcomes. I am proficient 
+in a wide range of <span class="highlight">AWS services</span>, including 
+<span class="highlight">EC2</span>, <span class="highlight">RDS</span>, 
+<span class="highlight">S3</span>, <span class="highlight">Lambda</span>, 
+<span class="highlight">CloudFormation</span>, <span 
+class="highlight">CloudFront</span>, <span class="highlight">Elastic 
+Beanstalk</span>, <span class="highlight">DynamoDB</span>, and <span 
+class="highlight">IAM</span>, which enable me to design scalable, highly 
+available, and cost-effective cloud architectures.
+            </p>
+            <p>
+                My expertise extends to containerization and 
+orchestration, utilizing tools like <span class="highlight">Docker</span> 
+and <span class="highlight">Kubernetes</span> to ensure seamless 
+application deployment and management. Additionally, I have experience 
+with automation and configuration management using <span 
+class="highlight">Terraform</span> and <span 
+class="highlight">Ansible</span>, which enhances the efficiency of 
+infrastructure provisioning and maintenance.
+            </p>
+            <p>
+                I have a proven track record of implementing <span 
+class="highlight">CI/CD pipelines</span> with tools such as <span 
+class="highlight">Jenkins</span>, <span class="highlight">GitLab 
+CI/CD</span>, and <span class="highlight">Azure Pipelines</span>, which 
+streamline deployment processes and improve code quality. My notable 
+projects include migrating enterprise applications to AWS, optimizing 
+infrastructure for performance and resilience, and establishing robust 
+security practices within cloud environments.
+            </p>
+            <p>
+                I am dedicated to continuous learning and innovation, 
+constantly seeking opportunities to deepen my knowledge of emerging cloud 
+technologies and DevOps methodologies. I am eager to leverage my skills to 
+drive business success through effective cloud solutions and streamlined 
+DevOps practices. Explore my projects on <a 
+href="https://github.com/RuchithaBtGowda" target="_blank">GitHub</a>, and 
+feel free to connect!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Ruchitha. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
-
 
